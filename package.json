@@ -33,6 +33,7 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.8",
     "rimraf": "^3.0.0",
     "rollup": "^1.23.1",
     "rollup-plugin-node-resolve": "^5.2.0"
@@ -41,5 +42,14 @@
     "require": [
       "esm"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earthtone/tiny-maybe"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   }
 }
