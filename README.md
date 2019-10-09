@@ -1,5 +1,7 @@
 # Tiny Maybe
 
+![CI Status](https://travis-ci.org/earthtone/tiny-maybe.svg?branch=master)
+
 A tiny, point-free implementation of Maybe utilities. Useful for when you want to avoid explicity `null` checks but don't need a more comprehensive/advanced implementation of an ADT.
 
 ---
